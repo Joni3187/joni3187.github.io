@@ -1,0 +1,18 @@
+/*
+Style the web you must... 
+*/
+
+
+.h1a {
+    text-align: center;
+}
+
+.jewels {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.text-right {
+    padding-left: 6em;
+}
