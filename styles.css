@@ -1,0 +1,35 @@
+/*
+Style the web you must... 
+*/
+
+.body2 {
+    float: left;
+}
+
+.body0 {
+    background-color: rgb(107, 105, 105);
+}
+
+
+.body1 {
+    padding-top: 4em;
+    text-align: center;
+    color: black;
+}   
+
+.body2 {
+    padding-right: 1em;
+    padding-left: 0.5em;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/*
+link options:
+a:link {}
+a:visited {}
+a:hover {}
+a:active {}
+*/
