@@ -1,7 +1,5 @@
-5/31/21 - Updated :
-Updates made to layout and styles. Joni3187
-
-<!-- 
+Joni3187 Portfolio README
+ 
 <date> Published:
 # joni3187.github.io  -  My Portfolio
 
@@ -13,4 +11,3 @@ Updates made to layout and styles. Joni3187
 
 ## Real Time Bus Tracker Repo
 <a href="https://joni3187.github.io/Real-Time-Bus-Tracker/">Real-Time-Bus-Tracker</a>
--->

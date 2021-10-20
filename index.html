@@ -4,82 +4,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firelink Shrine</title>
-    <link rel="stylesheet" href="styles.css">  
-    <script src="script.js"></script>
     <!-- CSS only BootStrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Links -->
+    <link rel="stylesheet" href="/styles.css">  
+    <script src="/Components/scripts.js"></script>
+    <!-- Title -->
+    <title>Firelink Shrine</title>
 </head>
+
 
 <body>
 
-    <div class=navBar>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="https://www.google.com">Google</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https://github.com/joni3187">GitHub</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https://getbootstrap.com/">Bootstrap</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https://admissions.emeritus.org/student/login">Emeritus</a>
-                  </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Links
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="https://getbootstrap.com/docs/5.0/components/navbar/">NavBar</a></li>
-                      <li><a class="dropdown-item" href="https://developer.mozilla.org/en-US/">MDN</a></li>
-                      <li><a class="dropdown-item" href="https://www.w3schools.com/default.asp">W3 Schools</a></li>
-                      <li><a class="dropdown-item" href="https://stackoverflow.com/">Stack Overflow</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="https://code.visualstudio.com/">VS Code</a></li>
-                    </ul>
-                  </li>
-                    </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Google Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-        </div>
+  <!-- NavBar -->
+  <div class=navBar>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.google.com">Google</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="body0">
-            
-            <div class="body1">
-                <h1>Joni3187 - Nexus</h1>
-            </div>
-            
-            <div class="body2">
-                <img class ="jewels" src="src/IMG_9449.jpg" style="width: 480px;height: 666px;"/>
-            </div>
+
+          <div class="navnav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 
-            <div class="body3">
-            <a href="https://joni3187.github.io/mod1-Capstone/">Module 1 Capstone</a>
-            <br><br>
-            <a href="https://joni3187.github.io/eyes">Eyes Project</a>    
-            <br><br>
-            <a href="https://joni3187.github.io/PacMen/">PacMen Exercise</a>
-            <br><br>
-            <a href="https://joni3187.github.io/Real-Time-Bus-Tracker/">Real-Time-Bus-Tracker</a>
+                <!-- Drop Down Menu 1 -->
+                  <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Code Stack</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://getbootstrap.com/docs/5.0/components/navbar/">NavBar</a></li>
+                    <li><a class="dropdown-item" href="https://developer.mozilla.org/en-US/">MDN</a></li>
+                    <li><a class="dropdown-item" href="https://www.w3schools.com/default.asp">W3 Schools</a></li>
+                    <li><a class="dropdown-item" href="https://stackoverflow.com/">Stack Overflow</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://code.visualstudio.com/">VS Code</a></li>
+                  </ul>
+
+                  <!-- Drop Down Menu 2 -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      References</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="https://github.com/joni3187">GitHub</a></li>
+                      <li><a class="dropdown-item" href="https://https://aws.amazon.com/s3/">AWS S3</a></li>
+                      <li><a class="dropdown-item" href="https://getbootstrap.com/">Bootstrap</a></li>
+
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://admissions.emeritus.org/student/login">Emeritus</a>
+                      </li>                    
+                    </ul>
+                  </li>
+
+                   <!-- Drop Down Menu 3 -->
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Web Platform Servers</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="https://getbootstrap.com/docs/5.0/components/navbar/">Heroku</a></li>
+                      <li><a class="dropdown-item" href="https://developer.mozilla.org/en-US/">Firebase</a></li>
+                      <li><a class="dropdown-item" href="https://www.w3schools.com/default.asp">AWS</a></li>
+                      <li><a class="dropdown-item" href="https://stackoverflow.com/">Docker Hub</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://code.visualstudio.com/">GitHub</a></li>
+                    </ul>
+              </ul>
             </div>
+          </div>
+        </div>
+      </nav>
+  </div>
 
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <!-- Body -->
+  <div class="body0">
+      
+      
+    <div class="head1">
+      <h1>Joni3187 - Nexus</h1>
     </div>
+              
+    <!-- Card 1 -->    
+    <div class ="jrcard">
+      <div class="card border-dark mb-5">
+        <img class="card-img-top" src="src/IMG_9449.jpg" alt="Card image cap">
+      </div>
+    </div>
+      
+    <!-- Card 2 -->
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card border-dark mb-5">
+          <div class="card-body" style="background-color: darkgray;">
+            <h5 class="card-title5">Portfolio</h5>
+            <p class="card-texty-text">
+              Some personal projects that I have created during my residency.
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td><a href="https://joni3187.github.io/mod1-Capstone/">Module 1 Capstone</a></td>
+                    <td></td><td></td><td></td>
+                    <td><a href="https://johnathon-mendozabankingapplication.s3.amazonaws.com/index.html">Bad Bank!</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://joni3187.github.io/eyes">Eyes Project</a></td>
+                    <td></td><td></td><td></td>
+                    <td><a href="https://joni3187.github.io/PacMen/">PacMen Exercise</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://joni3187.github.io/Real-Time-Bus-Tracker/">Real-Time-Bus-Tracker</a></td>
+                    <td></td><td></td><td></td>
+                    <td><a href="https://bucket-3187.s3.amazonaws.com/index.html?">Shopping Cart</a></td>
+                  </tr>
+                </tbody>
+              </table>
+              <br><br>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card 3 -->
+      <div class="col-sm-6">
+        <div class="card border-dark mb-5">
+          <div class="card-body" style="background-color: darkgray;">
+            <h5 class="card-title5">References - About Me</h5>
+            <p class="card-text">
+              Hello World!!!</p>
+              My name is Johnathon Mendoza, I am from Houston, Texas. 
+              I started coding and developing through the MIT xPRO Fullstack Development course. 
+            </p>
+            <br><br><br><br><br><br><br>
+            <a href="./Components/blog.html" class="btn btn-dark btn-outline-success">My Blog</a>
 
-    <div>
-    <!-- JavaScript Bundle with Popper - NavBar Functionality -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+          </div>
+        </div>
+      </div>
     </div>
+  
+ 
+  <!-- JavaScript Bundle with Popper - NavBar Functionality -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" 
+  crossorigin="anonymous">
+  </script>
+
+
 </body>
 </html>
