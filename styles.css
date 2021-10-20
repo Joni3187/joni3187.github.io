@@ -1,40 +1,35 @@
-/* Index Styles */
+/*
+Style the web you must... 
+*/
+
+.body2 {
+    float: left;
+}
 
 .body0 {
-    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
-    overflow: hidden;
+    background-color: rgb(107, 105, 105);
 }
 
-
-.head1 {
-    padding-top: 5em;
-    text-align: center;
-    color: black;
-    padding-bottom: 0.25em;
-}   
-
-
-.jrcard {
-    padding-top: 1.25em;
-    padding-left: 0.5em;
-    float: left;
-    width: 30rem;
-}
-
-.row {
-    padding-top: 1.25em;
-    padding-left: 1.0em;
-    padding-right: 1.0em;
-}
 
 .body1 {
-    padding-left: 25em;
+    padding-top: 4em;
+    text-align: center;
+    color: black;
+}   
+
+.body2 {
+    padding-right: 1em;
+    padding-left: 0.5em;
 }
 
 a:visited {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
-.card-title5 {
-    text-align: center;
-}
+/*
+link options:
+a:link {}
+a:visited {}
+a:hover {}
+a:active {}
+*/
