@@ -1,16 +1,8 @@
-5/31/21 - Updated :
-Updates made to layout and styles. Joni3187
+# Joni Portfolio
 
-<!-- 
-<date> Published:
-# joni3187.github.io  -  My Portfolio
+## General info
+This project was created to showcase – demonstrate: 
+HTML CSS JS - React framework - MERN stack development
 
-## My Eyes Repo
-<a href="http://joni3187.github.io/eyes">Eyes Exercise</a>
-
-## PacMen Repo
-<a href="https://joni3187.github.io/PacMen">PacMen Exercise</a>
-
-## Real Time Bus Tracker Repo
-<a href="https://joni3187.github.io/Real-Time-Bus-Tracker/">Real-Time-Bus-Tracker</a>
--->
+## Setup
+To run this project, run it locally using HTML - Live Server

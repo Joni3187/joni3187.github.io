@@ -1,0 +1,24 @@
+body {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);    
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.title {
+    float: left;
+    width: 10rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: lightcyan;
+}
+
+/* li {
+    list-style: none;
+} */
