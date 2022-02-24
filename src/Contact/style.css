@@ -104,3 +104,8 @@ body {
 i {
     color: white;
 }
+
+.icons {
+    align-items: center;
+    justify-content: center;
+}
