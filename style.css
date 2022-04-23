@@ -43,7 +43,6 @@ i {
 
 footer {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);    
-    
     color: white;
     /* background-color: darkslategray; */
     padding-top: 22px;
@@ -52,6 +51,4 @@ footer {
     height: 8vh;
     word-spacing: 100px;
 }
-
-
 
