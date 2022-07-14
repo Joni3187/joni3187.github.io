@@ -1,0 +1,84 @@
+/* BOOTSTRAP EXAMPLE STYLE  */
+
+body {
+    background-color: #f8f9fb;
+}
+
+nav {
+    background-color: #7533f9;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+nav i {
+    font-size: 40px;
+    position: absolute;
+    margin-right: 80%;
+}
+
+header {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h3 {
+    margin: 3rem;
+}
+
+hr {
+    width: 55%;
+    margin: 3rem auto;
+}
+
+footer {
+    background-color: #7533f9;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #a8abb2;
+    font-size: 50px;
+}
+
+footer a:hover {
+    color: #8b8d93;
+    font-size: 50px;
+}
+
+
+/* CLASS SELECTORS  */
+
+
+
+.main-tent {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-block {
+    margin: 3rem;
+}
+
+.footer-link {
+    background-color: #f8f9fb;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link a {
+    color: #a8abb2;
+    font-size: 25px;
+}
+
+.footer-link a:hover {
+    color: #8b8d93;
+}
