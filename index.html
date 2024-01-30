@@ -1,519 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- META -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Tail Wind CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
-        referrerpolicy="no-referrer" />
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- Bootstrap JavaScript Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-    <!-- Local Script -->
-    <script src="./src/root/script.js"></script>
-    <!-- Local Style -->
-    <link rel="stylesheet" href="./src/root/style.css">
-    <!-- TITLE -->
-    <title>Master Ref</title>
+  <!-- [ META DATA ] -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="Pageport" content="width=device-width, initial-scale=1.0" />
+  <!-- [ BOOTSTRAP CSS ] -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous" />
+  <!-- [ FONT AWESOME ] -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- [ LOCAL STYLE SHEET ] -->
+  <link rel="stylesheet" href="./src/root/styles/style.css" />
+  <!-- [ LOCAL MEDIA QUERY ] -->
+  <link rel="stylesheet" href="./src/root/styles/mQuery.css">
+  <!-- [ SITE TITLE ] -->
+  <title>git-Llab</title>
 </head>
-
 
 <body>
 
-    <!-- NAV BAR  -->
-    <nav>
-        <h2>Web Dev Sandbox</h2>
-    </nav>
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+            <!-- [ NAV BAR ] -->
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+  <nav id="navBar" class="navBar">
 
-    <!-- HEADER & SAMPLES -->
-    <header>
+    <div class="nav-title">
+      <h2>git-Llab</h2>
+    </div>
 
-        <h3>Hello World!!</h3>
+    <div class="nav-links">
 
-        <p class="center-text">
-            JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g.,
-            having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side
-            versions of JavaScript such as Node.js, which allow you to add more functionality to a website than
-            downloading files (such as realtime collaboration between multiple computers). Inside a host environment
-            (for example, a web browser), JavaScript can be connected to the objects of its environment to provide
-            programmatic control over them.
+      <!-- BRAND -->
+      <a href="https://github.com/" class="nav-icon" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
 
-            <br><br>
+      <!-- PROFILE -->
+      <a href="https://github.com/Joni3187" class="nav-icon" target="_blank">
+        <i class="fa-brands fa-github-alt"></i>
+      </a>
 
-            This application was created to serve as a home-base for my Full Stack Web Development journey.
-            The landing page provides Shortcuts to links on the site, Local Samples to view Demo - Starter
-            projects, and Contact information available in the Footer. I chose a GitHub theme for my projects
-            page - simple in nature & easy on the eyes. I hope my page can serve as inspiration to fellow
-            developers - and welcome feedback to improve this site!
-        </p>
+      <!-- REPOSITORIES -->
+      <a href="https://github.com/Joni3187?tab=repositories" class="nav-icon" target="_blank" >
+        <i class="fa-solid fa-code-fork"></i>
+      </a>
+
+      <!-- MARKDOWN HUB -->
+      <a href="https://github.com/Joni3187/HubMd" class="nav-icon" target="_blank" >
+        <i class="fa-brands fa-markdown"></i>
+      </a>
+
+    </div>
+
+  </nav>
+
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+            <!-- [ BANNER ] -->
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+  <section id="banner">
+
+    <p>
+      <img class="ban-img" src="https://images.unsplash.com/photo-1639322537231-2f206e06af84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" alt="banner"/>
+    </p>
+
+    <p class="mission">
+      <h3>
+        <b>Welcome Dev-User!!</b> 
+      </h3>
+      This page is an Open Source Collaboration (OSC) for Junior Devlopers. <br />
+      This page serves as an Application Reference Document (ARD) for Developer Operations. <br />
+      Featured below are several Applications to fork, manipulate, upgrade, and collaborate on.
+    </p>
+  </section>
+
+  <hr id="hr-1" />
+
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+            <!-- [ SIDE NAV TOOLBAR ]  -->
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+  <div class="nav-tools" id="nav-tools">
+    <!-- LIGHT / DARK MODE -->
+    <button id="dark-mode">
+      <i class="fa-regular fa-sun"></i>
+    </button>
+
+    <!-- TO-TOP BUTTON -->
+    <button onclick="window.location.href='#'">
+      <i class="fa-solid fa-arrow-turn-up"></i>
+    </button>
+  </div>
+
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+            <!-- [ MAIN CONTENT ] -->
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+  <main class="block1">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
 
 
-        <div class="card" id="code-camp">
+      <div class="col">
+                <div class="card">
+                    <img
+                    src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                    class="card-img-top"
+                    alt="..."
+                    />
+                    <div class="card-body">
+                    <h5 class="card-title">CDN</h5>
+                    <p class="card-text">
+                        This is a longer card with supporting text below as a natural
+                        lead-in to additional content. This content is a little bit
+                        longer.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                        >
+                            <a
+                            href="./src/pages/CDN/index.html"
+                            target="_blank"
+                            >Page</a
+                            >
+                        </button>
+                        <button
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary"
+                        >
+                            <a href="">Repo</a>
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+      </div>
 
-            <h3 class="left-text">Local Samples:</h3>
-            <ul>
-                <li>
-                    <a href="./src/samples/Bootstrap/index.html" target="_blank">
-                        <i class="fa-solid fa-clipboard-list"></i>
-                    </a> - Bootstrap Examples
-                </li>
-                <li>
-                    <a href="./src/samples/BTM 50 Pro/index.html" target="_blank">
-                        <i class="fa-solid fa-clipboard-list"></i>
-                    </a> - BTM 50 Projects
-                </li>
-                <li>
-                    <a href="./src/samples/Clipboard Copy/index.html" target="_blank">
-                        <i class="fa-solid fa-clipboard-list"></i>
-                    </a> - Clipboard Copy
-                </li>
-                <li>
-                    <a href="./src/samples/Media Queries/index.html" target="_blank">
-                        <i class="fa-solid fa-clipboard-list"></i>
-                    </a>- Media Queries
-                </li>
-                <li>
-                    <a href="./src/samples/W3/index.html" target="_blank">
-                        <i class="fa-solid fa-clipboard-list"></i>
-                    </a>- W3 Templates
-                </li>
-            </ul>
-        </div>
 
-
-    </header>
-
-
-    <hr>
-
-
-    <!-- MAIN CONTENT -->
-    <main>
-
-        <div class="main-tent">
-            <h2>Reference-Links:</h2>
-            <p>
-                This section of the page is dedicated to favorite pages - shared links - career services - and general
-                web development resources.
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Dev Dictionary</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
             </p>
-        </div>
-
-
-        <div class="long-note">
-
-
-            <div id="shortcuts" class="card">
-                <h3>Shortcuts:</h3>
-                <ul>
-                    <li>
-                        <a href="#favtools">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- My Dev Tools
-                    </li>
-                    <li>
-                        <a href="#footer">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- About Me
-                    </li>
-                    <li>
-                        <a href="#api">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- API
-                    </li>
-                    <li>
-                        <a href="#auth">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- Authentication
-                    </li>
-                    <li>
-                        <a href="#camp">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- Code Camp
-                    </li>
-                    <li>
-                        <a href="#hub">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- Dev Hub
-                    </li>
-
-                    <li>
-                        <a href="#frames">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- Frameworks
-                    </li>
-                    <li>
-                        <a href="#ide">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- IDE
-                    </li>
-                    <li>
-                        <a href="#styles">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- Style
-                    </li>
-                    <li>
-                        <a href="#ux">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- UX Backend
-                    </li>
-                    <li>
-                        <a href="#host">
-                            <i class="fa-solid fa-link"></i>
-                        </a>- Web Hosting
-                    </li>
-
-
-                </ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <a
+                    href="./src/pages/Dev_Dictionary/index.html"
+                    target="_blank"
+                    >Page</a
+                  >
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <a href="">Repo</a>
+                </button>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-
-            <div class="card" id="favtools">
-                <h3>My Dev Tools:</h3>
-                <ul>
-                    <li>
-                        <a href="https://getbootstrap.com/" target="_blank">
-                            <i class="fa-solid fa-globe"></i>
-                        </a> - Bootstrap
-                    </li>
-                    <li>
-                        <a href="https://cdnjs.com/" target="_blank">
-                            <i class="fa-solid fa-globe"></i>
-                        </a> - CDN
-                    </li>
-                    <li>
-                        <a href="https://fontawesome.com/" target="_blank">
-                            <i class="fa-solid fa-globe"></i>
-                        </a> - Font Awesome
-                    </li>
-                    <li>
-                        <a href="https://fonts.google.com/" target="_blank">
-                            <i class="fa-solid fa-globe"></i>
-                        </a> - Google Fonts
-                    </li>
-                    <li>
-                        <a href="https://developer.mozilla.org/en-US/" target="_blank">
-                            <i class="fa-solid fa-globe"></i>
-                        </a> - MDN
-                    </li>
-                    <li>
-                        <a href="https://stackoverflow.com/" target="_blank">
-                            <i class="fa-solid fa-globe"></i>
-                        </a> - Stack Overflow
-                    </li>
-                    <li>
-                        <a href="https://unsplash.com/" target="_blank">
-                            <i class="fa-solid fa-globe"></i>
-                        </a> - Unsplash
-                    </li>
-                    <li>
-                        <a href="https://www.w3schools.com/" target="_blank">
-                            <i class="fa-solid fa-globe"></i>
-                        </a> - W3
-                    </li>
-                </ul>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Dev Hex-Palette</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <a href="./src/pages/Hex_Palette/hex.html" target="_blank"
+                    >Page</a
+                  >
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <a href="">Repo</a>
+                </button>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <div class="card">
-                <h3 id="api">API:</h3>
-                <ul>
-                    <li>
-                        <a href="https://www.themoviedb.org/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Movie Db
-                    </li>
-                    <li>
-                        <a href="https://openweathermap.org/api/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Weather Db
-                    </li>
-                </ul>
-
-                <hr>
-
-                <h3 id="auth">Authentication:</h3>
-                <ul>
-                    <li>
-                        <a href="https://auth0.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Auth 0
-                    </li>
-                    <li>
-                        <a href="https://firebase.google.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Firebase
-                    </li>
-                    <li>
-                        <a href="https://ngrok.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Ngrok
-                    </li>
-                </ul>
-
-                <hr>
-
-                <h3 id="camp">Code Camp:</h3>
-                <ul>
-                    <li>
-                        <a href="https://www.coursera.org/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Coursera
-                    </li>
-                    <li>
-                        <a href="https://egghead.io/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Egghead.io
-                    </li>
-                    <li>
-                        <a href="https://www.freecodecamp.org/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Free Code Camp
-                    </li>
-                    <li>
-                        <a href="https://ituonline.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - ITU Online
-                    </li>
-                    <li>
-                        <a href="https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - MIT Terminus
-                    </li>
-                    <li>
-                        <a href="https://xpro.mit.edu/programs/program-v1:xPRO+PCCx+R1/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - MIT xPRO
-                    </li>
-                    <li>
-                        <a href="https://www.mycomputercareer.edu/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - My Computer Career
-                    </li>
-                    <li>
-                        <a href="https://www.udemy.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Udemy
-                    </li>
-                    <li>
-                        <a href="https://zerotomastery.io/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Zero to Mastery
-                    </li>
-                </ul>
-
-                <hr>
-
-                <h3 id="hub">Dev Hub:</h3>
-                <ul>
-                    <li>
-                        <a href="./src/samples/Clipboard Copy/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Dev To
-                    </li>
-                    <li>
-                        <a href="./src/samples/Features/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Geeks for Geeks
-                    </li>
-                    <li>
-                        <a href="./src/samples/Features/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - GitHub
-                    </li>
-                    <li>
-                        <a href="./src/samples/Clipboard Copy/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Grepper
-                    </li>
-                    <li>
-                        <a href="./src/samples/Features/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Free Code Camp
-                    </li>
-                    <li>
-                        <a href="https://www.pluralsight.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Plural Sight
-                    </li>
-                    <li>
-                        <a href="https://css-tricks.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - CSS Tricks
-                    </li>
-                    <li>
-                        <a href="https://betterprogramming.pub/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Better Programming
-                    </li>
-                    <li>
-                        <a href="https://stackoverflow.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Stack Overflow
-                    </li>
-                </ul>
-
-                <hr>
-
-                <h3 id="frames">Frameworks:</h3>
-                <ul>
-                    <li>
-                        <a href="https://getbootstrap.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Bootstrap
-                    </li>
-                    <li>
-                        <a href="https://tailwindcss.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Tailwind CSS
-                    </li>
-                    <li>
-                        <a href="https://www.w3schools.com/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - W3 Schools
-                    </li>
-                    <li>
-                        <a href="https://angular.io/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Angular
-                    </li>
-                    <li>
-                        <a href="https://reactjs.org/" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - React
-                    </li>
-                </ul>
-
-                <hr>
-
-                <h3 id="ide">IDE:</h3>
-                <ul>
-                    <li>
-                        <a href="./src/samples/Clipboard Copy/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Clipboard Copy
-                    </li>
-                    <li>
-                        <a href="./src/samples/Features/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Features
-                    </li>
-                    <li>
-                        <a href="./src/samples/Footers/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a>- Footers
-                    </li>
-                </ul>
-
-                <hr>
-
-                <h3 id="styles">Style Profile:</h3>
-                <ul>
-                    <li>
-                        <a href="./src/samples/Clipboard Copy/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Clipboard Copy
-                    </li>
-                    <li>
-                        <a href="./src/samples/Features/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Features
-                    </li>
-                    <li>
-                        <a href="./src/samples/Footers/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a>- Footers
-                    </li>
-                </ul>
-
-                <hr>
-
-
-                <h3 id="ux">UX-Backend:</h3>
-                <ul>
-                    <li>
-                        <a href="./src/samples/Clipboard Copy/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Clipboard Copy
-                    </li>
-                    <li>
-                        <a href="./src/samples/Features/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Features
-                    </li>
-                    <li>
-                        <a href="./src/samples/Footers/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a>- Footers
-                    </li>
-                </ul>
-
-                <hr>
-
-                <h3 id="host">Web Hosting:</h3>
-                <ul>
-                    <li>
-                        <a href="./src/samples/Clipboard Copy/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Clipboard Copy
-                    </li>
-                    <li>
-                        <a href="./src/samples/Features/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a> - Features
-                    </li>
-                    <li>
-                        <a href="./src/samples/Footers/index.html" target="_blank">
-                            <i class="fa-solid fa-clipboard-list"></i>
-                        </a>- Footers
-                    </li>
-                </ul>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1518704618243-b719e5d5f2b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Dev Links</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <a href="./src/pages/Dev_Links/links.html" target="_blank"
+                    >Page</a
+                  >
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <a href="">Repo</a>
+                </button>
+              </div>
+              <small>Last Updated: </small>
             </div>
-            </article>
-
+          </div>
         </div>
+      </div>
 
 
-
-
-
-    </main>
-
-    <!-- FOOTER -->
-    <footer id="footer">
-        <div class="foot-top">
-            <h2>About Me!</h2>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Dev Demo - BTM 50</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <a
+                    href="./src/pages/BTM 50 Pro/index.html"
+                    target="_blank"
+                    >Page</a
+                  >
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <a href="">Repo</a>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <hr>
-
-        <div class="foot-links">
-            <a href="https://codepen.io/joni_eren">
-                <i class="fa-brands fa-codepen"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/johnathon-mendoza/">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://twitter.com/joni_eren">
-                <i class="fa-brands fa-twitter-square"></i>
-            </a>
-            <a href="https://github.com/Joni3187">
-                <i class="fa-brands fa-github-square"></i>
-                <a href="mailto: demo@example.com">
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                </a>
-            </a>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Dev Blog - Template</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <a
+                    href="./src/pages/Template_Blog/index.html"
+                    target="_blank"
+                    >Page</a
+                  >
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <a href="">Repo</a>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+
+  
+    </div>
+  </main>
+
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+            <!-- [ SCRIPTURE ] -->
+  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+
+  <div id="scripts">
+    <!-- [ local script ] -->
+    <script src="./src/root/scripts/script.js"></script> 
+  </div>
 
 </body>
 
