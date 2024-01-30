@@ -1,0 +1,196 @@
+/* UNIVERSAL SELECTOR */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAV BAR */
+
+nav {
+    height: 5rem;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BANNER */
+
+.banner {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+
+
+/* MAIN CONTENT */
+
+main {
+    background-color: #F8F9FA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main h4 {
+   padding-left: 3rem; 
+}
+
+.block {
+    margin: 3rem 2rem;
+    border: 2px #000 solid;
+    width: 20rem;
+    padding: 1rem;
+    background-color: #d5dbdb;
+    border-radius: 25px;
+}
+
+.popup {
+    /* position: absolute; */
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.box {
+    height: 2rem; 
+    width: 2rem;
+    margin-left: 2rem;
+}
+
+.box:hover {
+    border: 2px solid #f7dc6f;
+}
+
+
+/* 
+================
+~~~~~~~~~~~~~~~~
+    FOOTER
+~~~~~~~~~~~~~~~~
+================ 
+*/
+
+footer {
+    height: 8rem;
+    background-color: #212429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    font-size: 35px;
+    color: #fff;
+}
+
+
+/* 
+====================================================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  < BOX SHADOW TEMPLATES >   < BOX SHADOW TEMPLATES >    < BOX SHADOW TEMPLATES >
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====================================================================================
+ */
+
+ 
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< GITHUB >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-1 { background-color: #1abc9c; }
+.box-2 { background-color: #e8f8f5; }
+.box-3 { background-color: #d1f2eb; }
+.box-4 { background-color: #a3e4d7; }
+.box-5 { background-color: #76d7c4; }
+.box-6 { background-color: #48c9b0; }
+.box-7 { background-color: #1abc9c; }
+.box-8 { background-color: #17a589; }
+.box-9 { background-color: #148f77; }
+.box-10 { background-color: #117864; }
+.box-11 { background-color: #0e6251; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< GREEN SEA >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-12 { background-color: #16a085; }
+.box-13 { background-color: #e8f6f3; }
+.box-14 { background-color: #d0ece7; }
+.box-15 { background-color: #a2d9ce; }
+.box-16 { background-color: #73c6b6; }
+.box-17 { background-color: #45b39d; }
+.box-18 { background-color: #16a085; }
+.box-19 { background-color: #138d75; }
+.box-20 { background-color: #117a65; }
+.box-21 { background-color: #0e6655; }
+.box-22 { background-color: #0b5345; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< EMERALD >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-23 { background-color: #2ecc71; }
+.box-24 { background-color: #eafaf1; }
+.box-25 { background-color: #d5f5e3; }
+.box-26 { background-color: #abebc6; }
+.box-27 { background-color: #82e0aa; }
+.box-28 { background-color: #58d68d; }
+.box-29 { background-color: #2ecc71; }
+.box-30 { background-color: #28b463; }
+.box-31 { background-color: #239b56; }
+.box-32 { background-color: #1d8348; }
+.box-33 { background-color: #186a3b; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< NEPHRITIS >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-34 { background-color: #27ae60; }
+.box-35 { background-color: #e9f7ef; }
+.box-36 { background-color: #d4efdf; }
+.box-37 { background-color: #a9dfbf; }
+.box-38 { background-color: #7dcea0; }
+.box-39 { background-color: #52be80; }
+.box-40 { background-color: #27ae60; }
+.box-41 { background-color: #229954; }
+.box-42 { background-color: #1e8449; }
+.box-43 { background-color: #196f3d; }
+.box-44 { background-color: #145a32; }
+
+
+/* 
+================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< END OF STYLE SHEET >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================================
+*/

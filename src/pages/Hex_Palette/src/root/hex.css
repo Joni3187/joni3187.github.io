@@ -1,0 +1,518 @@
+/* UNIVERSAL SELECTOR */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAV BAR */
+
+nav {
+    height: 5rem;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BANNER */
+
+.banner {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+
+
+/* MAIN CONTENT */
+
+main {
+    background-color: #F8F9FA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main h4 {
+   padding-left: 3rem; 
+}
+
+.block {
+    margin: 3rem 2rem;
+    border: 2px #000 solid;
+    width: 18rem;
+    /* width: 20rem; */
+    padding: 1rem;
+    background-color: #d5dbdb;
+    border-radius: 25px;
+}
+
+.popup {
+    /* position: absolute; */
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.box {
+    height: 2rem; 
+    width: 2rem;
+    margin-left: 2rem;
+}
+
+.box:hover {
+    border: 2px solid #f7dc6f;
+    cursor: pointer;
+}
+
+
+/* 
+================
+~~~~~~~~~~~~~~~~
+    FOOTER
+~~~~~~~~~~~~~~~~
+================ 
+*/
+
+footer {
+    height: 8rem;
+    background-color: #212429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    font-size: 35px;
+    color: #fff;
+}
+
+
+/* 
+====================================================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  < BOX SHADOW TEMPLATES >   < BOX SHADOW TEMPLATES >    < BOX SHADOW TEMPLATES >
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====================================================================================
+ */
+
+ 
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< TURQUOISE >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-1 { background-color: #1abc9c; }
+.box-2 { background-color: #e8f8f5; }
+.box-3 { background-color: #d1f2eb; }
+.box-4 { background-color: #a3e4d7; }
+.box-5 { background-color: #76d7c4; }
+.box-6 { background-color: #48c9b0; }
+.box-7 { background-color: #1abc9c; }
+.box-8 { background-color: #17a589; }
+.box-9 { background-color: #148f77; }
+.box-10 { background-color: #117864; }
+.box-11 { background-color: #0e6251; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< GREEN SEA >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-12 { background-color: #16a085; }
+.box-13 { background-color: #e8f6f3; }
+.box-14 { background-color: #d0ece7; }
+.box-15 { background-color: #a2d9ce; }
+.box-16 { background-color: #73c6b6; }
+.box-17 { background-color: #45b39d; }
+.box-18 { background-color: #16a085; }
+.box-19 { background-color: #138d75; }
+.box-20 { background-color: #117a65; }
+.box-21 { background-color: #0e6655; }
+.box-22 { background-color: #0b5345; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< EMERALD >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-23 { background-color: #2ecc71; }
+.box-24 { background-color: #eafaf1; }
+.box-25 { background-color: #d5f5e3; }
+.box-26 { background-color: #abebc6; }
+.box-27 { background-color: #82e0aa; }
+.box-28 { background-color: #58d68d; }
+.box-29 { background-color: #2ecc71; }
+.box-30 { background-color: #28b463; }
+.box-31 { background-color: #239b56; }
+.box-32 { background-color: #1d8348; }
+.box-33 { background-color: #186a3b; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< NEPHRITIS >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-34 { background-color: #27ae60; }
+.box-35 { background-color: #e9f7ef; }
+.box-36 { background-color: #d4efdf; }
+.box-37 { background-color: #a9dfbf; }
+.box-38 { background-color: #7dcea0; }
+.box-39 { background-color: #52be80; }
+.box-40 { background-color: #27ae60; }
+.box-41 { background-color: #229954; }
+.box-42 { background-color: #1e8449; }
+.box-43 { background-color: #196f3d; }
+.box-44 { background-color: #145a32; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< PETER RIVER >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-45 { background-color: #3498db; }
+.box-46 { background-color: #ebf5fb; }
+.box-47 { background-color: #d6eaf8; }
+.box-48 { background-color: #aed6f1; }
+.box-49 { background-color: #85c1e9; }
+.box-50 { background-color: #5dade2; }
+.box-51 { background-color: #3498db; }
+.box-52 { background-color: #2e86c1; }
+.box-53 { background-color: #2874a6; }
+.box-54 { background-color: #21618c; }
+.box-55 { background-color: #1b4f72; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< BELIZE HOLE >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-56 { background-color: #2980b9; }
+.box-57 { background-color: #eaf2f8; }
+.box-58 { background-color: #d4e6f1; }
+.box-59 { background-color: #a9cce3; }
+.box-60 { background-color: #7fb3d5; }
+.box-61 { background-color: #5499c7; }
+.box-62 { background-color: #2980b9; }
+.box-63 { background-color: #2471a3; }
+.box-64 { background-color: #1f618d; }
+.box-65 { background-color: #1a5276; }
+.box-66 { background-color: #154360; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< AMETHYST >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-67 { background-color: #9b59b6; }
+.box-68 { background-color: #f5eef8; }
+.box-69 { background-color: #ebdef0; }
+.box-70 { background-color: #d7bde2; }
+.box-71 { background-color: #c39bd3; }
+.box-72 { background-color: #af7ac5; }
+.box-73 { background-color: #9b59b6; }
+.box-74 { background-color: #884ea0; }
+.box-75 { background-color: #76448a; }
+.box-76 { background-color: #633974; }
+.box-77 { background-color: #512e5f; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< WISTERIA >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-78 { background-color: #8e44ad; }
+.box-79 { background-color: #f4ecf7; }
+.box-80 { background-color: #e8daef; }
+.box-81 { background-color: #d2b4de; }
+.box-82 { background-color: #bb8fce; }
+.box-83 { background-color: #a569bd; }
+.box-84 { background-color: #8e44ad; }
+.box-85 { background-color: #7d3c98; }
+.box-86 { background-color: #6c3483; }
+.box-87 { background-color: #5b2c6f; }
+.box-88 { background-color: #4a235a; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< WET ASPHALT >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-89 { background-color: #34495e; }
+.box-90 { background-color: #ebedef; }
+.box-91 { background-color: #d6dbdf; }
+.box-92 { background-color: #aeb6bf; }
+.box-93 { background-color: #85929e; }
+.box-94 { background-color: #5d6d7e; }
+.box-95 { background-color: #34495e; }
+.box-96 { background-color: #2e4053; }
+.box-97 { background-color: #283747; }
+.box-98 { background-color: #212f3c; }
+.box-99 { background-color: #1b2631; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< MIDNIGHT BLUE >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-100 { background-color: #2c3e50; }
+.box-101 { background-color: #eaecee; }
+.box-102 { background-color: #d5d8dc; }
+.box-103 { background-color: #abb2b9; }
+.box-104 { background-color: #808b96; }
+.box-105 { background-color: #566573; }
+.box-106 { background-color: #2c3e50; }
+.box-107 { background-color: #273746; }
+.box-108 { background-color: #212f3d; }
+.box-109 { background-color: #1c2833; }
+.box-110 { background-color: #17202a; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< SUNFLOWER >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-111 { background-color: #f1c40f; }
+.box-112 { background-color: #fef9e7; }
+.box-113 { background-color: #fcf3cf; }
+.box-114 { background-color: #f9e79f; }
+.box-115 { background-color: #f7dc6f; }
+.box-116 { background-color: #f4d03f; }
+.box-117 { background-color: #f1c40f; }
+.box-118 { background-color: #d4ac0d; }
+.box-119 { background-color: #b7950b; }
+.box-120 { background-color: #9a7d0a; }
+.box-121 { background-color: #7d6608; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< ORANGE >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-122 { background-color: #f39c12; }
+.box-123 { background-color: #fef5e7; }
+.box-124 { background-color: #fdebd0; }
+.box-125 { background-color: #fad7a0; }
+.box-126 { background-color: #f8c471; }
+.box-127 { background-color: #f5b041; }
+.box-128 { background-color: #f39c12; }
+.box-129 { background-color: #d68910; }
+.box-130 { background-color: #b9770e; }
+.box-131 { background-color: #9c640c; }
+.box-132 { background-color: #7e5109; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< CARROT >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-133 { background-color: #e67e22; }
+.box-134 { background-color: #fdf2e9; }
+.box-135 { background-color: #fae5d3; }
+.box-136 { background-color: #f5cba7; }
+.box-137 { background-color: #f0b27a; }
+.box-138 { background-color: #eb984e; }
+.box-139 { background-color: #e67e22; }
+.box-140 { background-color: #ca6f1e; }
+.box-141 { background-color: #af601a; }
+.box-142 { background-color: #935116; }
+.box-143 { background-color: #784212; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< PUMPKIN >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-144 { background-color: #d35400; }
+.box-145 { background-color: #fbeee6; }
+.box-146 { background-color: #f6ddcc; }
+.box-147 { background-color: #edbb99; }
+.box-148 { background-color: #e59866; }
+.box-149 { background-color: #dc7633; }
+.box-150 { background-color: #d35400; }
+.box-151 { background-color: #ba4a00; }
+.box-152 { background-color: #a04000; }
+.box-153 { background-color: #873600; }
+.box-154 { background-color: #6e2c00; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< ALIZARIN >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-155 { background-color: #e74c3c; }
+.box-156 { background-color: #fdedec; }
+.box-157 { background-color: #fadbd8; }
+.box-158 { background-color: #f5b7b1; }
+.box-159 { background-color: #f1948a; }
+.box-160 { background-color: #ec7063; }
+.box-161 { background-color: #e74c3c; }
+.box-162 { background-color: #cb4335; }
+.box-163 { background-color: #b03a2e; }
+.box-164 { background-color: #943126; }
+.box-165 { background-color: #78281f; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< POMEGRANATE >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-166 { background-color: #c0392b; }
+.box-167 { background-color: #f9ebea; }
+.box-168 { background-color: #f2d7d5; }
+.box-169 { background-color: #e6b0aa; }
+.box-170 { background-color: #d98880; }
+.box-171 { background-color: #cd6155; }
+.box-172 { background-color: #c0392b; }
+.box-173 { background-color: #a93226; }
+.box-174 { background-color: #922b21; }
+.box-175 { background-color: #7b241c; }
+.box-176 { background-color: #641e16; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< CLOUDS >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-177 { background-color: #ecf0f1; }
+.box-178 { background-color: #fdfefe; }
+.box-179 { background-color: #fbfcfc; }
+.box-180 { background-color: #f7f9f9; }
+.box-181 { background-color: #f4f6f7; }
+.box-182 { background-color: #f0f3f4; }
+.box-183 { background-color: #ecf0f1; }
+.box-184 { background-color: #d0d3d4; }
+.box-185 { background-color: #b3b6b7; }
+.box-186 { background-color: #979a9a; }
+.box-187 { background-color: #7b7d7d; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< SILVER >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-188 { background-color: #bdc3c7; }
+.box-189 { background-color: #f8f9f9; }
+.box-190 { background-color: #f2f3f4; }
+.box-191 { background-color: #e5e7e9; }
+.box-192 { background-color: #d7dbdd; }
+.box-193 { background-color: #cacfd2; }
+.box-194 { background-color: #bdc3c7; }
+.box-195 { background-color: #a6acaf; }
+.box-196 { background-color: #909497; }
+.box-197 { background-color: #797d7f; }
+.box-198 { background-color: #626567; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< CONCRETE >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-199 { background-color: #95a5a6; }
+.box-200 { background-color: #f4f6f6; }
+.box-201 { background-color: #eaeded; }
+.box-202 { background-color: #d5dbdb; }
+.box-203 { background-color: #bfc9ca; }
+.box-204 { background-color: #aab7b8; }
+.box-205 { background-color: #95a5a6; }
+.box-206 { background-color: #839192; }
+.box-207 { background-color: #717d7e; }
+.box-208 { background-color: #5f6a6a; }
+.box-209 { background-color: #4d5656; }
+
+/* 
+=============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< MISTY HAZE >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================
+*/
+
+.box-210 { background-color: #7f8c8d; }
+.box-211 { background-color: #f2f4f4; }
+.box-212 { background-color: #e5e8e8; }
+.box-213 { background-color: #ccd1d1; }
+.box-214 { background-color: #b2babb; }
+.box-215 { background-color: #99a3a4; }
+.box-216 { background-color: #7f8c8d; }
+.box-217 { background-color: #707b7c; }
+.box-218 { background-color: #616a6b; }
+.box-219 { background-color: #515a5a; }
+.box-220 { background-color: #424949; }
+
+
+/* 
+================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<< END OF STYLE SHEET >>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================================
+*/

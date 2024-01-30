@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- [ META DATA ] -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- [ FONT AWESOME ] -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- [ LOCAL STYLE DARK MODE ] -->
+    <link rel="stylesheet" href="./src/root/dark-mode.css">
+    <!-- [ BOOTSTRAP CSS ] -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- [ LOCAL STYLE ] -->
+    <link rel="stylesheet" href="./src/root/style.css">
+    <!-- [ SPA TITLE ] -->
+    <title>Blog Post</title>
+</head>
+
+<body>
+
+  <!-- =-=-=-=-=-=-=-=-= [ NAV BAR - MODAL ] =-=-=-=-=-=-=-= -->
+  <nav>
+    
+    <h2>Blog - Title</h2>
+
+    <button class="mod-btn" id="modalButton">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    
+    <!-- [ MODAL POPUP ] -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Table of Contents</h3>
+        <hr>
+        <div class="modal-links">
+            <ul class="li-items">
+              
+                <li>
+                    <a class="li-toc" href="#intro">Introduction</a>
+                </li>
+
+                <li>
+                    <a class="li-toc" href="#first-steps">First Steps to Web Development</a>
+                </li>
+
+                <li>
+                    <a class="li-toc" href="#portfolio-website">Your Portfolio Website</a>
+                </li>
+
+                <li>
+                    <a class="li-toc" href="">Niching Down</a>
+                </li>
+
+                <li>
+                    <a class="li-toc" href="">Services & Prices</a>
+                </li>
+
+            </ul>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- =-=-=-=-=-=-=-=-= [ BANNER ] =-=-=-=-=-=-=-=-=-= -->
+  <article class="banner">
+    <h2>Banner Content - CTA</h2>
+    <p>
+      Any web developer/designer that wants to start a freelancing business from scratch or that is already running a business and is looking for tips and guidance.
+      You could be a Wordpress developer that creates websites for small businesses or a fullstack developer that creates complex applications. We don't focus on any specific technology in this course.
+    </p>
+    
+    <a href="https://google.com/" target="_blank">
+        <button>
+            Link <i class="fa-solid fa-arrow-up-right-from-square btn-icon"></i>
+        </button>
+    </a>
+
+  </article>
+
+  <!-- =-=-=-=-=-=-=-=-= [ SIDE NAV TOOLBAR ] =-=-=-=-=-=-=-=-= -->
+  <div class="nav-tools" id="nav-tools">
+
+    <!-- LIGHT / DARK MODE -->
+    <button id="dark-mode">
+      <i class="fa-regular fa-sun"></i>
+    </button>
+
+    <!-- BOOKMARK - MODAL -->
+    <button id="bookmarkButton">
+        <i class="fa-regular fa-bookmark"></i>
+    </button>
+
+    <!-- TO-TOP BUTTON -->
+    <button onclick="window.location.href='#'">
+        <i class="fa-solid fa-arrow-turn-up"></i>
+    </button>
+    
+  </div>
+
+  <!-- =-=-=-=-=-=-=-=-= [ MAIN CONTENT ] =-=-=-=-=-=-=-=-= -->
+  <main>
+
+    <div id="intro">
+
+    <h2>Blog Post</h2>
+
+
+      <div id="intro">
+
+        <div class="title-bar">
+            [ Intro ]
+        </div>
+
+        <div class="card-content">
+          
+          <h3 class="card-point">
+            Course for creating freelance business hosted by Brad Traversy & Kyle Prinsloo. <br>
+          </h3>
+
+          <h4 class="card-notes">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero minima officiis velit excepturi repellendus harum laborum similique soluta provident iure amet, nemo qui temporibus, quos culpa tempora. Quasi, sed. Iusto?
+          </h4>
+
+          <ul>
+
+            <li>
+              Brad Traversy - <a href="https://www.traversymedia.com/" target="_blank">
+                <i class="fa-solid fa-person-walking-dashed-line-arrow-right"></i>
+              </a> <br>
+            </li>
+
+            <!-- <li>
+              Brad Traversy - <a href="https://www.traversymedia.com/" target="_blank">Link</a> <br>
+            </li> -->
+
+            <li>
+              Kyle Prinsloo - <a href="https://kyleprinsloo.com/" target="_blank">Link</a> 
+            </li>
+
+          </ul>
+            
+        </div>
+
+      </div>
+
+      <div id="notes">
+
+
+        <div class="title-bar">
+            [ Notes ]
+        </div>
+
+        <div class="card-content">
+
+          <h3 class="card-point">
+            Starting a Business: Mindset, minimum skills, registering a business. 
+          </h3>
+
+            <ul>
+              
+              <li>
+                Portfolio Website: Creating your website. Individual vs Agency. 
+              </li>
+              <li>
+                Niching Down: Specializing and focusing in a specific area. 
+              </li>
+              <li>
+                Your Services: Web development, design, marketing, SEO. 
+              </li>
+              
+            </ul>
+        </div>
+
+      </div>
+
+
+      <div id="code">
+
+
+        <div class="title-bar">
+            [ Code - Demo ]
+        </div>
+
+        <div class="card-content">
+
+          <h3 class="card-point">
+            Starting a Business: Mindset, minimum skills, registering a business. 
+          </h3>
+
+            <ul>
+              
+              <li>
+                Portfolio Website: Creating your website. Individual vs Agency. 
+              </li>
+              <li>
+                Niching Down: Specializing and focusing in a specific area. 
+              </li>
+              <li>
+                Your Services: Web development, design, marketing, SEO. 
+              </li>
+              
+            </ul>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+  </main>
+
+  <!-- =-=-=-=-=-=-=-=-= [ ADDITIONAL MATERIALS ] =-=-=-=-=-=-=-=-= -->
+  <main>
+
+    <h2>Blog Post - AM</h2>
+
+    <div id="pdf">
+      
+      <div class="title-bar">
+        [ PDF ]
+      </div>
+      
+      <div class="books">
+        
+        <div class="book">
+
+          <a href="./src/ark/pdf/CSS CS.pdf" target="_blank">
+            <img src="https://images.unsplash.com/photo-1550399105-c4db5fb85c18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="">
+            <h4>Book Title</h4>
+          </a>
+
+        </div>
+          
+        <div class="book">
+          <img src="https://images.unsplash.com/photo-1550399105-c4db5fb85c18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="">
+          <h4>Book Title</h2>
+        </div>
+      
+        <div class="book">
+          <img src="https://images.unsplash.com/photo-1550399105-c4db5fb85c18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="">
+          <h4>Book Title</h2>
+        </div>
+              
+        <div class="book">
+          <img src="https://images.unsplash.com/photo-1550399105-c4db5fb85c18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="">
+          <h4>Book Title</h2>
+        </div>
+            
+      </div>
+          
+    </div>
+          
+    <div id="audio">
+
+      <div class="title-bar">
+        [ Audio ]
+      </div>
+      
+      <div class="card-content">
+        
+        <div class="icon">
+          <p>
+            🔉
+            <audio controls>
+              <source src="https://soundcloud.com/tubebackr/bamboo-groove?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" type="audio/html">
+            </audio>
+            <!-- <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1605880386&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/tubebackr" title="tubebackr" target="_blank" style="color: #cccccc; text-decoration: none;">tubebackr</a> · <a href="https://soundcloud.com/tubebackr/bamboo-groove" title="Bamboo Groove" target="_blank" style="color: #cccccc; text-decoration: none;">Bamboo Groove</a></div> -->
+          </p>
+        </div>
+
+        <h4 class="card-notes">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero minima officiis velit excepturi repellendus harum laborum similique soluta provident iure amet, nemo qui temporibus, quos culpa tempora. Quasi, sed. Iusto?
+        </h4>
+            
+      </div>
+  
+    </div>
+
+    <div id="video">
+
+        <div class="title-bar">
+            [ Video ]
+        </div>
+
+        <div class="card-content">
+
+          <h3 class="card-point">
+            Starting a Business: Mindset, minimum skills, registering a business. 
+          </h3>
+
+          <div class="video-content">
+            <iframe src="https://www.youtube.com/embed/jfKfPfyJRdk?si=jGkCAZ8IKv83w-y6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+            
+        </div>
+  
+    </div>
+
+  </main>
+
+  <!-- [ CONTENT STYLES ]  -->
+
+  <main>
+
+    <article id="">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+                <span class="text-muted"><a href="./src/pages/CV I/index.html">LINK:</a></span>
+                01: Get Started with Web Development
+            </h2>
+            <p class="lead">
+              Some great placeholder content for the first featurette here.
+              Imagine some exciting prose here.
+            </p>
+          </div>
+          <div class="col-md-5">
+  
+            <img src="https://images.unsplash.com/photo-1599420186985-5c3d1a038e84?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=387&amp;q=80" class="card-img-top" alt="...">
+
+          </div>
+        </div>
+  
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+                <span class="text-muted"><a href="./src/pages/CV II/index.html">LINK:</a></span>
+                02: Intro to HTML &amp; CSS
+            </h2>
+            <p class="lead">
+              Another featurette? Of course. More placeholder content here to give
+              you an idea of how this layout would work with some actual
+              real-world content in place.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="https://images.unsplash.com/photo-1573941252622-4118390c7993?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1171&amp;q=80" class="card-img-top" alt="...">
+          </div>
+        </div>
+  
+        <!-- <hr class="featurette-divider" /> -->
+  
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+                <span class="text-muted"><a href="./src/pages/CV III/index.html">LINK:</a></span>
+              03: UI Frameworks
+            </h2>
+            <p class="lead">
+              And yes, this is the last block of representative placeholder
+              content. Again, not really intended to be actually read, simply here
+              to give you a better view of what this would look like with some
+              actual content. Your content.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80" class="card-img-top" alt="...">
+          </div>
+        </div>
+  
+        <!-- <hr class="featurette-divider" /> -->
+  
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">
+                <span class="text-muted"><a href="./src/pages/CV II/index.html">LINK:</a></span>
+              04: Capstone - Review
+            </h2>
+            <p class="lead">
+              Another featurette? Of course. More placeholder content here to give
+              you an idea of how this layout would work with some actual
+              real-world content in place.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="https://cdn.pixabay.com/photo/2018/03/18/15/26/villa-3237114_1280.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        
+    </article>
+
+  </main>
+
+  <main>
+
+    <div class="album py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1520640023173-50a135e35804?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80" class="card-img-top" alt="img">
+                        <div class="card-body">
+                            <h3>01: Get Started with Web Development</h3>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true" target="_blank">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                         <img src="https://images.unsplash.com/photo-1661956602868-6ae368943878?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80" class="card-img-top" alt="img">
+
+                        <div class="card-body">
+                            <h3>02: Intro to HTML &amp; CSS</h3>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true" target="_blank">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                         <img src="https://images.unsplash.com/photo-1465829235810-1f912537f253?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1171&amp;q=80" class="card-img-top" alt="img">
+                        <div class="card-body">
+                            <h3>03: UI Frameworks</h3>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true" target="_blank">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                         <img src="https://images.unsplash.com/photo-1465829235810-1f912537f253?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1171&amp;q=80" class="card-img-top" alt="img">
+                        <div class="card-body">
+                            <h3>04: Capstone - Review</h3>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true" target="_blank">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  </main>
+
+  <!-- =-=-=-=-=-=-=-=-=-= [ LOCAL SCRIPT ] =-=-=-=-=-=-=-=-=-= -->
+  <script src="./src/root/script.js"></script>
+    
+</body>
+</html>
