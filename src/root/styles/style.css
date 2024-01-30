@@ -1,0 +1,261 @@
+/* ================================= */
+    /* [ CASCADING STYLE SHEET ] */
+/* ================================= */
+
+/* ====================== */
+  /* [ GOOGLE FONTS ] */
+/* ====================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+/* ========================= */
+  /* [ STYLE VARIABLES ] */
+/* ========================= */
+
+:root {
+
+  /* [ COLORS ] */
+  --body-color: #EBEBEB;
+  --body-text: #0B0A0A;
+
+  /* --text-color: #403A3A; */
+  /* --text-color-light: #707070; */
+  /* --container-color: #FAFAFA; */
+  /* --container-color-alt: #F0EFEF; */
+
+  /* [ FONT & TYPOGRAPHY ] */
+  --body-font: 'Poppins', sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .875rem;
+  --smaller-font-size: .813rem;
+
+  /* [ FONT WEIGHT ] */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* [ MARGINS ] */
+  --mb-0: 0;
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+
+}
+
+/* ============================= */
+  /* [ UNIVERSAL SELECTORS ] */
+/* ============================= */
+
+* {
+  box-sizing: border-box;
+  margin: var(--mb-0);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--body-text);
+}
+
+/* ================ */
+  /* [ NAVBAR ] */
+/* ================ */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #22272d;
+  color: #fff;
+  border-bottom: solid 2px #cdd9e5;
+  padding: 15px 0;
+}
+
+.nav-title {
+  font-family: Mooli;
+  color: #cdd9e5;
+  text-align: center;
+  cursor: default;
+  margin-left: 4%;
+}
+
+.nav-title h2 {
+  font-size: 55px;
+  /*  */
+  /* font-weight: 600; */
+}
+
+.nav-links {
+  display: flex;
+  margin-right: 3%;
+  /*  */
+  /* position: absolute; */
+  /* margin-left: 80%; */
+}
+
+.nav-icon i {
+  font-size: 40px;
+  margin: 0 5px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: #cdd9e5;
+  font-size: 55px;
+  margin: 0 18px;
+}
+
+.navBar a:hover {
+  color: #efefef;
+}
+
+/* ============================== */
+  /* [ SIDE NAV BAR - TOOLS ] */
+/* ============================== */
+
+.nav-tools {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+}
+
+.nav-tools button {
+  margin-bottom: 18px; /* Adjust as needed for spacing between buttons */
+  border-radius: 5px;
+  cursor: pointer;
+  /* padding: 2px; */
+}
+
+.nav-tools button i {
+  font-size: 28px;
+  padding: 3px 2px;
+}
+
+.nav-tools button:hover {
+  background-color: #353535;
+  color: #e7e7e7;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+}   
+
+
+/* ================ */
+  /* [ BANNER ] */
+/* ================ */
+
+#banner {
+  /* color: #cdd9e5; */
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  font-size: 25px;
+  text-align: center;
+  font-family: Mooli;
+}
+
+.ban-img {
+  height: 28rem;
+  width: 90%;
+  border-radius: 15px;
+  filter: saturate(25%);
+  border: solid 2px #cdd9e5;
+  /* border-radius: 25px; */
+  /* width: 150%; */
+}
+
+.mission {
+  padding: 1rem 0;
+  /* padding: 2rem 0 3rem; */
+}
+
+.quoted {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1.75rem;
+  font-style: italic;
+  /* display: none; */
+}
+
+#hr-1 {
+  width: 80%;
+  color: #000;
+  margin: 1rem auto;
+}
+
+
+/* ====================== */
+  /* [ BODY CONTENT ] */
+/* ====================== */
+
+.block1 {
+  color: #cdd9e5;
+  display: flex;
+  padding: 1rem;
+  width: 85%;
+  margin: 1rem auto 2rem;
+  /* border: solid 1px #CDD9E5; */
+}
+
+.body h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 45px;
+}
+
+.body a {
+  color: #cdd9e5;
+  text-decoration: none;
+}
+
+.body a:hover {
+  color: #566573;
+}
+
+.body hr {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.body li {
+  list-style-type: none;
+  margin-left: 3rem;
+  font-size: 25px;
+}
+
+.body li:before {
+  content: "-";
+  margin-right: 0.5rem;
+}
+
+.card {
+  color: #000;
+  border: solid 2px #717171;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* 
+==========================================================================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    < END OF STYLE SHEET >   < END OF STYLE SHEET >   < END OF STYLE SHEET >   < END OF STYLE SHEET >  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==========================================================================================================
+*/

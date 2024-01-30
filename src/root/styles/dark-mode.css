@@ -1,0 +1,53 @@
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-= */
+      /* [ STYLE SHEET ] */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+:root {
+  /* COLORS */
+  --body-color-dark: #2c333b;
+  --body-text: #cdd9e5;
+
+  /* --text-color: #403A3A; */
+  /* --text-color-light: #707070; */
+  /* --container-color: #FAFAFA; */
+  /* --container-color-alt: #F0EFEF; */
+
+  /* FONT & TYPOGRAPHY */
+  --body-font: 'Poppins', sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .875rem;
+  --smaller-font-size: .813rem;
+
+  /* FONT WEIGHT */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* MARGINS */
+  --mb-0: 0;
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+}
+  
+
+body {
+  background-color: var(--body-color-dark);
+  background-color: blue;
+  color: var(--body-text);
+}
+
+
+
+/* 
+===========================================================================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    < END OF STYLES >   < END OF STYLES >   < END OF STYLES >   < END OF STYLES >   < END OF STYLES >  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===========================================================================================================
+ */
