@@ -1,0 +1,184 @@
+/* = = = = = = = = = = = = = = = = = = = =  */
+        /* [ UNIVERSAL SELECTOR ] */
+/* = = = = = = = = = = = = = = = = = = = =  */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* = = = = = = = = = = = = = =  */
+        /* [ NAVBAR ] */
+/* = = = = = = = = = = = = = =  */
+
+nav {
+    height: 6rem;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7f3f3;
+    font-size: 25px;
+}
+
+/* = = = = = = = = = = = = = =  */
+        /* [ BANNER ] */
+/* = = = = = = = = = = = = = =  */
+
+.banner {
+    padding: 2rem 0;
+    text-align: center;
+    /* background-color: #e5e8e8; */
+    background-color: #F8F9FA;
+    margin-bottom: 2rem;
+}
+
+.banner-icon img {
+    border-radius: 50%;
+    height: 18rem;
+    width: 20rem;
+    margin: 1rem 0 2rem;
+    border: 2px solid #000;
+}
+
+.banner-content {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #d9643a;
+    border: 3px solid #F2C94C;
+    /* border: none; */
+}
+
+.btn:hover {
+    background-color: #b65532;
+    border: 3px solid #f07406;
+}
+
+/* FIX CODE WHEN BUTTON IS PRESSED CHANGE FROM BLUE TO .... */
+.btn:focus {
+    background-color: red;
+}
+
+
+/* = = = = = = = = = = = = = = = = =  */
+        /* [ BODY - MAIN ] */
+/* = = = = = = = = = = = = = = = = =  */
+
+.body {
+    width: 80%;
+    height: 25rem;
+    background-color: #c3c3c3;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.code_demo {
+    /* height: 15rem; */
+    /* background-color: blue; */
+    background-color: #aeaeae;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+}   
+
+main {
+    margin: 2rem;
+}
+
+.main-content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.link-container {
+    width: 35px;
+    height: 35px;
+    background-color: #4d5656;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.link-container:hover {
+    color: #b2afaf;
+    font-size: 24px;
+}
+
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #d0761c;
+    padding: 1em 1.5em;
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 1.6em;
+    /* font-family: monospace; */
+    /* page-break-inside: avoid; */
+    /* line-height: 1.6; */
+    /* max-width: 100%; */
+    /* overflow: auto; */
+    /* display: block; */
+    /* word-wrap: break-word; */
+    /* border-top: 5rem solid #F2C94C; */
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+pre, code {
+    white-space: normal;
+}
+
+.codeBox {
+    display: flex;
+}
+
+.copyBtn {
+    font-size: 25px;
+    cursor: pointer;
+    color: #a0a0a0;
+
+    position: absolute;
+    margin-left: 65%;
+    
+    /* position: relative; */
+    /* margin-left: 65%; */
+}
+
+.copyBtn:hover {
+    color: #4d5656;    
+}
+
+.copy-txt {
+    width: 85%;
+}
+
+
+
+/* = = = = = = = = = = = = = = = = = =  */
+        /* [ FOOTER CONTENT ] */
+/* = = = = = = = = = = = = = = = = = =  */
+
+footer {
+    height: 8rem;
+    background: #F2994A;  /* fallback for old browsers */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* = = = = = = = = = = = = = = = = =  */
+        /* END OF STYLE SHEET */
+/* = = = = = = = = = = = = = = = = =  */
