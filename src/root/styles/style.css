@@ -246,6 +246,10 @@ body {
   border: solid 2px #717171;
 }
 
+.card-img-top {
+  height: 250px;
+}
+
 .btn a {
   text-decoration: none;
   color: #000;
