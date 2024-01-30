@@ -1,0 +1,180 @@
+/* 
+============
+  STYLE SHEET
+============
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  overflow-x: hidden; 
+  /* Prevent scroll on narrow devices */
+}
+
+/* 
+============
+  NAVBAR
+============
+ */
+
+nav {
+  height: 5rem;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: fixed;
+  width: 100vw;
+}
+
+nav i {
+  font-size: 40px;
+  position: relative;
+  color: #fff;
+  position: absolute;
+  margin-left: 80%;
+}
+
+nav i:hover {
+  cursor: pointer;
+}
+
+/* 
+============
+  Sidebar
+============
+ */
+ 
+ .sidebar {
+  margin-top: 5rem;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #212121;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 3rem; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+/* 
+================
+  MAIN CONTENT
+================
+*/
+
+/* BANNER  */
+.banner {
+  margin-top: 5rem;
+}
+
+.container {
+  margin-top: 2rem;
+  /* padding-left: 12rem; */
+}
+
+.bg-solid {
+  background-color: #5dade2;
+}
+
+.lh-1 {
+  font-size: 30px;
+}
+
+.d-flex a:hover {
+  color: #2980b9;
+}
+
+.link-top {
+  width: 32px;
+  height: 32px;
+  background-color: #1a5276;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.link-right {
+  margin-left: 80%;
+  font-size: 30px;
+}
+
+.link-container {
+  width: 32px;
+  height: 32px;
+  background-color: #4d5656;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* 
+================
+    MEDIA QUERY
+================
+ */
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #343a40;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+  }
+  .offcanvas-collapse.open {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+}
