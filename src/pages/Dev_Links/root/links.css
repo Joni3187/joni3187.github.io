@@ -1,0 +1,155 @@
+/* ========================================= */
+  /* = = = [ CASCADING STYLE SHEET ] = = =  */
+/* ========================================= */
+
+
+/* ====================================== */
+  /* = = = [ UNIVERSAL SELECTOR ] = = =  */
+/* ====================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+/* ========================== */
+  /* = = = [ NAVBAR ] = = = */
+/* ========================== */
+
+nav {
+  height: 5rem;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+nav i {
+  font-size: 40px;
+  position: relative;
+  color: #fff;
+  position: absolute;
+  margin-left: 80%;
+}
+
+nav i:hover {
+  cursor: pointer;
+}
+
+
+/* ========================== */
+  /* = = = [ BANNER ] = = = */
+/* ========================== */
+
+.banner {
+  width: 60%;
+  border: solid 2px #d6d6d6;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 3rem auto;
+  border-radius: 8px;
+}
+
+.ban-links {
+  margin: 2rem 0 0;
+}
+
+.ban-links a {
+  margin: 0 10px;
+}
+
+.breadcrumb {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  margin: 1rem auto;
+}
+
+
+/* ================================ */
+  /* = = = [ MAIN CONTENT ] = = = */
+/* ================================ */
+
+.container {
+  margin-top: 5rem;
+  /* padding-left: 12rem; */
+}
+
+.bg-solid {
+  background-color: #5dade2;
+}
+
+.lh-1 {
+  font-size: 30px;
+}
+
+.d-flex a:hover {
+  color: #2980b9;
+}
+
+.link-top {
+  width: 32px;
+  height: 32px;
+  background-color: #1a5276;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.link-right {
+  margin-left: 80%;
+  font-size: 30px;
+}
+
+.link-container {
+  width: 32px;
+  height: 32px;
+  background-color: #4d5656;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+
+/* =========================================================================================== */
+  /* = = = [ MEDIA QUERY ] = = = | = = = [ MEDIA QUERY ] = = = | = = = [ MEDIA QUERY ] = = = */
+/* =========================================================================================== */
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #343a40;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+  }
+  .offcanvas-collapse.open {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+}
+
+/* =========================================================================================== */
