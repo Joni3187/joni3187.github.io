@@ -1,13 +1,31 @@
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=
+  // [ TOGGLE BOOKMARK BAR ]
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=
 
+document.addEventListener('DOMContentLoaded', function() {
 
-/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
+  // Attach click event listener to all elements with the 'divider' class
+  document.querySelectorAll('.divider').forEach(function(element) {
 
-/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
-}
+    element.addEventListener('click', function(e) {
+
+      // Check if the clicked element or its parent has the 'link-top' class
+      let target = e.target;
+      if (target.classList.contains('link-top') || target.parentElement.classList.contains('link-top')) {
+        // Find the .link-top element
+        let linkTop = target.classList.contains('link-top') ? target : target.parentElement;
+        
+        // Get the next sibling element of the parent of the .link-top, which should be the div to hide
+        let nextDiv = linkTop.closest('div').nextElementSibling;
+        
+        // Toggle visibility
+        if (nextDiv.style.display === 'none') {
+          nextDiv.style.display = ''; // Show if already hidden
+        } else {
+          nextDiv.style.display = 'none'; // Hide if shown
+        }
+      }
+    });
+  });
+});
+
