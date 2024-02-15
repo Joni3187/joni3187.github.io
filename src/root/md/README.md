@@ -4,6 +4,10 @@
 
 [About](#about)
 
+[FAQ](#faq)
+
+[Code Shortcuts](#)
+
 
 
 ## About - Author
@@ -20,11 +24,34 @@ MRJ - Git
 
 ## About - App
 
-[ Application ]
+[ About ]
 
-This application serves as an Open Source Collaboration project. 
+git-llab is an open source collaboration
 Featuring several utilities for Junior developers. 
 
+
+[ Applications ]
+
+[Dev Links](./apps/LINKS.MD)
+Dev Links: 
+
+
+[Dev Dictionary](./apps/DICTIONARY.md)
+Dev Dictionary:
+
+
+[Hex Palette](./apps/HEX.md)
+Dev Hex Palette: 
+
+
+Dev CDN: 
+
+
+Vanilla JS - Pro 50: 
+
+
+[Blog Temple](./apps/BLOG.md)
+Dev Template: 
 
 
 [ Updates ]
@@ -34,15 +61,32 @@ View Log of changes to Project here:
 [Updates](./apps/UPDATES.md)
 
 
-## Application README
+## Code Shortcuts
 
-[Blog Temple](./apps/BLOG.md)
 
-[Dev Dictionary](./apps/DICTIONARY.md)
+``` html
 
-[Hex Palette](./apps/HEX.md)
+<!-- ================== -->
+    <!-- [ NAVBAR ] -->
+<!-- ================== -->
 
-[Dev Links](./apps/LINKS.MD)
+
+```
+
+
+``` css
+
+/* ================== */
+    /* [ NAVBAR ] */
+/* ================== */
+
+
+```
+
+
+``` js
+
+```
 
 
 

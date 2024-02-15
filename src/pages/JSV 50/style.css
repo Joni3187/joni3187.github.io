@@ -1,6 +1,6 @@
-body{
-    /* background-color: antiquewhite; */
-    /* background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%); */
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .navBar {
@@ -17,22 +17,13 @@ body{
     color: white;
 }
 
-.ban-txt {
+.banner {
+    margin: 4rem auto;
+    border: solid 1px #212121;
+    width: 60%;
+    padding: 2rem 3rem;
+    border-radius: 15px;
     text-align: center;
-    width: 65%;
-    margin: 0 auto;
-}
-
-.container {
-    margin-bottom: 40px;
-}
-
-.headcard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin: 4rem 0; */
-    padding: 4rem 0;
 }
 
 .card {
@@ -65,12 +56,12 @@ h2, h5 {
     justify-content: center;
     align-items: center;
   
-  }
-  
-  .foot-icons a{
+}
+
+.foot-icons a{
     color: black;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
     text-decoration: none;
-  }
+}
