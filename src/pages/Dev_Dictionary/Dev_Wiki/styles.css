@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 /* NAV BAR  */
 
 nav {
@@ -33,7 +32,16 @@ input[type=text]:focus {
 
 /* Term Container */
 
-.term {
+.sticky {
+    position: fixed;
+    top: 4rem;
+    width: 100%;
+    z-index: 100;
+    background-color: white; /* or any color that fits your design */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds shadow for better visibility */
+  }
+
+.title, .term {
     background-color: #d6dbdf;
     /* margin: 1rem; */
     padding: 1rem;
@@ -49,7 +57,12 @@ input[type=text]:focus {
     font-size: 30px;
 }
 
-#termContainer {
+#title {
+    text-align: center;
+    background-color: #9d3a3a;
+}
+
+#title, #termContainer {
     width: 80%;
     margin: 2rem auto;
     font-size: 25px;

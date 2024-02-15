@@ -17,3 +17,6 @@ searchInput.addEventListener('input', function () {
         }
     }
 });
+
+
+
