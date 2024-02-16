@@ -43,6 +43,15 @@ h2, h5 {
     text-align: center;
 }
 
+.card-footer a {
+    font-size: 38px;
+    color: #717171;
+}
+
+.card-footer a:hover {
+    color: #949494;
+}
+
 .float-end {
     margin-top: 25px;
 }
