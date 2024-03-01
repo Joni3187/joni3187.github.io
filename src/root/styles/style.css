@@ -190,6 +190,10 @@ body {
   height: 250px;
 }
 
+.center-card {
+  margin: 1.5rem auto 0;
+} 
+
 .btn a {
   text-decoration: none;
   color: #000;
