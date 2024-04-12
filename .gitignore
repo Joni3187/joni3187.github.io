@@ -1,3 +1,19 @@
 # Ignore Assets
-src/root/assets
 
+
+
+
+src/root/assets
+.src/root/assets
+
+./vscode
+./src/root/assets
+
+
+*.vscode/
+*.vscode
+.vscode/
+.vscode
+
+.vscode
+vscode/
