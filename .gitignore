@@ -7,4 +7,8 @@
 
 
 # Assets
-./src/root/Assets
+*./src/root/assets
+!./src/root/assets
+./src/root/assets
+/src/root/assets
+src/root/assets
