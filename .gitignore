@@ -3,12 +3,10 @@
 # = = = = = = = = = = = = = = = = = = = = 
 
 # .vscode
+/.vscode
 .vscode
 
 
 # Assets
-*./src/root/assets
-!./src/root/assets
-./src/root/assets
 /src/root/assets
 src/root/assets
