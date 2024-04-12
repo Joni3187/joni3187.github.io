@@ -1,13 +1,34 @@
-/* ================================= */
-        /* [ MEDIA QUERIES ] */
-/* ================================= */
+/* ============================================= */
+  /* [ MEDIA QUERIES CASCADING STYLE SHEET ] */
+/* ============================================= */
+
+/* ================================ */
+  /* [ MEDIA QUERY - CELLPHONE ] */
+/* ================================ */
+
+/* CSS Media Query for screens with a min-width of 768px */
+@media only screen and (min-width: 768px) {
+   
+
+}
+
+
+/* ========================================= */
+  /* [ MEDIA QUERY - LANDSCAPE TABLETS ] */
+/* ========================================= */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
 
-    .nav-links {
-      margin-left: 70%;
-    }
-  
-  }
-  
+
+/* @media only screen and (max-width: 768px) {
+
+} */
+
+
+    
+
+
+
+/* ============================================================== */
+  /* [ END OF DOCUMENT: MEDIA QUERIES CASCADING STYLE SHEET ] */
+/* ============================================================== */

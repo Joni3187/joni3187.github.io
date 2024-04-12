@@ -66,7 +66,7 @@ body {
   background-color: #22272d;
   color: #fff;
   border-bottom: solid 2px #cdd9e5;
-  padding: 15px 0;
+  padding: 28px 0;
 }
 
 .nav-title {
@@ -97,7 +97,7 @@ body {
 #banner {
   /* color: #cdd9e5; */
   width: 75%;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
   margin-top: 3rem;
   font-size: 25px;
   text-align: center;
@@ -105,7 +105,7 @@ body {
 }
 
 .ban-img {
-  height: 28rem;
+  height: 32rem;
   width: 90%;
   border-radius: 15px;
   filter: saturate(25%);
@@ -190,14 +190,39 @@ body {
   height: 250px;
 }
 
-.center-card {
+.card-title {
+  text-align: center;
+  /* background-color: #566573; */
+}
+
+.cardCon {
+  font-size: 28px;
+  padding: 2px 6px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  background-color: #cdd9e5;
+}
+
+.centerCard {
   margin: 1.5rem auto 0;
 } 
 
-.btn a {
-  text-decoration: none;
-  color: #000;
+.card-text {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 1rem 0;
 }
+
+
+
+
+
+.btn-group {
+  margin: 0 auto;
+}
+
 
 
 /* =============== */

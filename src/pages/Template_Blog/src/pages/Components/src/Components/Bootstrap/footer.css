@@ -1,0 +1,109 @@
+
+/* ================ */
+    /* [ UNIVERSAL ] */
+/* ================ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* ================ */
+    /* [ NAVBAR ] */
+/* ================ */
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #4bbee4;
+    padding: 1rem;
+}
+
+.bootIcon {
+    font-size: 100px;
+    color: #6f42c1;
+    margin: 0 2rem;
+}
+
+.title h1 {
+    margin-left: 2rem;
+    font-size: 54px;
+}
+
+
+/* ================ */
+    /* [ BANNER ] */
+/* ================ */
+
+.banner {
+    width: 70%;
+    margin: 4rem auto;
+    padding: 1rem;
+    border: solid 2px #000;
+    border-radius: 15px;
+}
+
+.banner h2 {
+    text-align: center;
+}
+
+.bannerTxt {
+    text-align: center;
+}
+
+.codeModal {
+    text-align: center;
+}
+
+.codeModal a {
+    font-size: 55px;
+    color: black;
+}
+
+
+/* ================ */
+    /* [ CODE MODAL ] */
+/* ================ */
+
+.modal-dialog {
+    max-width: 80%;
+    /* Adjust this value to ensure the modal is centered */
+    margin: 1.75rem auto;
+}
+
+pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+.modal-body pre, code {
+    width: 80%;
+    margin-left: 2rem;
+    /* margin: 0 auto; */
+}
+
+
+
+
+/* ================ */
+    /* [ MAIN CONTENT ] */
+/* ================ */
+
+
+
+
+
+
