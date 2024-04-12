@@ -1,19 +1,10 @@
-# Ignore Assets
+# = = = = = = = = = = = = = = = = = = = = 
+#   = - = - = [ GIT IGNORE ] = - = - = 
+# = = = = = = = = = = = = = = = = = = = = 
 
-
-
-
-src/root/assets
-.src/root/assets
-
-./vscode
-./src/root/assets
-
-
-*.vscode/
-*.vscode
-.vscode/
+# .vscode
 .vscode
 
-.vscode
-vscode/
+
+# Assets
+./src/root/Assets
