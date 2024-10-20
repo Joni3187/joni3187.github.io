@@ -1,12 +1,17 @@
 # = = = = = = = = = = = = = = = = = = = = 
-#   = - = - = [ GIT IGNORE ] = - = - = 
+#     = - =  [ GIT IGNORE ]  = - =  
 # = = = = = = = = = = = = = = = = = = = = 
 
 # .vscode
+
 /.vscode
 .vscode
 
 
 # Assets
+
 /src/root/assets
 src/root/assets
+
+
+# = = = = = = = = = = = = = = = = = = = = = = = = = = =
