@@ -1,0 +1,257 @@
+/* ================================= */
+    /* [ CASCADING STYLE SHEET ] */
+/* ================================= */
+
+/* ====================== */
+  /* [ GOOGLE FONTS ] */
+/* ====================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+/* ========================= */
+  /* [ STYLE VARIABLES ] */
+/* ========================= */
+
+:root {
+
+  /* [ COLORS ] */
+  --body-color: #EBEBEB;
+  --body-text: #0B0A0A;
+
+  /* --text-color: #403A3A; */
+  /* --text-color-light: #707070; */
+  /* --container-color: #FAFAFA; */
+  /* --container-color-alt: #F0EFEF; */
+
+  /* [ FONT & TYPOGRAPHY ] */
+  --body-font: 'Poppins', sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .875rem;
+  --smaller-font-size: .813rem;
+
+  /* [ FONT WEIGHT ] */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* [ MARGINS ] */
+  --mb-0: 0;
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+
+}
+
+/* ============================= */
+  /* [ UNIVERSAL SELECTORS ] */
+/* ============================= */
+
+* {
+  box-sizing: border-box;
+  margin: var(--mb-0);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--body-text);
+}
+
+/* ================ */
+  /* [ NAVBAR ] */
+/* ================ */
+
+.navBar {
+  background-color: #22272d;
+  color: #fff;
+  border-bottom: solid 2px #cdd9e5;
+  padding: 28px 0;
+}
+
+.nav-title {
+  font-family: Mooli;
+  color: #cdd9e5;
+  text-align: center;
+  cursor: default;
+  margin-left: 4%;
+  letter-spacing: 8px;
+}
+
+.nav-title h2 {
+  font-size: 55px;
+  /*  */
+  /* font-weight: 600; */
+}
+
+
+/* ============================== */
+  /* [ SIDE NAV BAR - TOOLS ] */
+/* ============================== */
+
+
+
+/* ================ */
+  /* [ BANNER ] */
+/* ================ */
+
+#banner {
+  /* color: #cdd9e5; */
+  width: 75%;
+  margin: 0 auto 3rem;
+  margin-top: 3rem;
+  font-size: 25px;
+  text-align: center;
+  font-family: Mooli;
+}
+
+.ban-img {
+  height: 32rem;
+  width: 90%;
+  border-radius: 15px;
+  filter: saturate(25%);
+  border: solid 2px #cdd9e5;
+  /* border-radius: 25px; */
+  /* width: 150%; */
+}
+
+.mission {
+  padding: 1rem 0;
+  /* padding: 2rem 0 3rem; */
+}
+
+.quoted {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1.75rem;
+  font-style: italic;
+  /* display: none; */
+}
+
+#hr-1 {
+  width: 80%;
+  color: #000;
+  margin: 1rem auto;
+}
+
+
+/* ====================== */
+  /* [ BODY CONTENT ] */
+/* ====================== */
+
+.block1 {
+  color: #cdd9e5;
+  display: flex;
+  padding: 1rem;
+  width: 85%;
+  margin: 1rem auto 2rem;
+  /* border: solid 1px #CDD9E5; */
+}
+
+.body h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 45px;
+}
+
+.body a {
+  color: #cdd9e5;
+  text-decoration: none;
+}
+
+.body a:hover {
+  color: #566573;
+}
+
+.body hr {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.body li {
+  list-style-type: none;
+  margin-left: 3rem;
+  font-size: 25px;
+}
+
+.body li:before {
+  content: "-";
+  margin-right: 0.5rem;
+}
+
+.card {
+  color: #000;
+  border: solid 2px #717171;
+}
+
+.card-img-top {
+  height: 250px;
+}
+
+.card-title {
+  text-align: center;
+  /* background-color: #566573; */
+}
+
+.cardCon {
+  font-size: 28px;
+  padding: 2px 6px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  background-color: #cdd9e5;
+}
+
+.centerCard {
+  margin: 1.5rem auto 0;
+} 
+
+.card-text {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 1rem 0;
+}
+
+
+
+
+
+.btn-group {
+  margin: 0 auto;
+}
+
+
+
+/* =============== */
+  /* [ FOOTER ] */
+/* =============== */
+
+.footer-nav {
+  background-color: #22272d;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #cdd9e5;
+  font-size: 50px;
+  margin: 0 2rem;
+}
+
+.nav-links a:hover {
+  color: #efefef;
+}
+
+
+/* 
+==========================================================================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    < END OF STYLE SHEET >   < END OF STYLE SHEET >   < END OF STYLE SHEET >   < END OF STYLE SHEET >  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==========================================================================================================
+*/
