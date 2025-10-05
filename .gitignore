@@ -2,16 +2,19 @@
 #     = - =  [ GIT IGNORE ]  = - =  
 # = = = = = = = = = = = = = = = = = = = = 
 
-# .vscode
+# [ .vscode ]
 
 /.vscode
 .vscode
 
 
-# Assets
+# [ Assets ]
 
-/src/root/assets
-src/root/assets
+**/ArkSb/ 
+
+**/assets/
 
 
-# = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+
+# = = = = = = = = = = = = = = = = = = = = = = = = =
